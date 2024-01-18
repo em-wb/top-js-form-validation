@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Form Validation</title>
+  </head>
+  <body>
+    <h1>Form Validation</h1>
+    <form>
+      <h2>This is a form</h2>
+      <p>Required fields are marked with "<span>*</span>"</p>
+      <label for="email">Email address <span>*</span></label>
+      <input type="email" id="email" name="email" />
+      <span class="error" id="email-error"></span>
+      <label for="country">Country <span>*</span></label>
+      <input type="text" id="country" name="country" />
+      <span class="error" id="country-error"></span>
+      <label for="postcode">Post/Zip code <span>*</span></label>
+      <input type="text" id="postcode" name="postcode" />
+      <span class="error" id="postcode-error"></span>
+      <label for="password">Password <span>*</span></label>
+      <input type="password" id="password" name="password" />
+      <span class="error" id="password-error"></span>
+      <label for="password-confirmation">Password <span>*</span></label>
+      <input
+        type="password"
+        id="password-confirmation"
+        name="password-confirmation"
+      />
+      <span class="error" id="conf-password-error"></span>
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
