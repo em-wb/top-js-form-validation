@@ -9,7 +9,7 @@ body {
   flex-direction: column;
   align-items: center;
   height: 100vh;
-  font-size: 20px;
+  font-size: 18px;
   font-family: monospace;
   line-height: 1.2;
 }
@@ -33,7 +33,7 @@ form {
   flex-direction: column;
   width: 4250px;
   max-width: 425px;
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 label,
